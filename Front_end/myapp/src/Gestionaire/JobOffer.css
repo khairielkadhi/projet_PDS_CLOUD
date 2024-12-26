@@ -1,0 +1,76 @@
+/* styles.css */
+
+/* Conteneur du formulaire */
+.form-container {
+  width: 900px; /* Largeur maximale du cadre */
+  padding: 40px; /* Espacement interne du cadre */
+  border: 4px solid #ccc; /* Bordure */
+  border-radius: 30px; /* Coins arrondis */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ombre légère */
+  margin-top: auto;
+}
+.page-container {
+  display: flex;
+  
+  margin-left: 50px; 
+  justify-content: flex-end; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  height: 100vh; /* Prend toute la hauteur de la fenêtre */
+  
+}
+.form-inputdescription {
+  flex: 1; /* Remplit l'espace disponible */
+    padding: 10px; /* Espacement interne des champs */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 10px; /* Coins arrondis */
+    min-width: 10; /* Réinitialise la largeur minimale */
+    width: 10px;
+    height: 200px
+}
+
+
+  
+  /* Style pour les div contenant les labels et les champs */
+  .form-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Espacement entre les champs */
+    border-radius: 50px;
+  }
+  
+  /* Style pour les labels */
+  .form-label {
+    font-weight: bold; /* Texte en gras */
+    margin-right: 20px; /* Espacement à droite des labels */
+    min-width: 140px; /* Largeur minimale des labels */
+  }
+  
+  /* Style pour les champs de texte */
+  .form-input {
+    flex: 1; /* Remplit l'espace disponible */
+    padding: 10px; /* Espacement interne des champs */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 10px; /* Coins arrondis */
+    min-width: 10; /* Réinitialise la largeur minimale */
+    width: 10px;;
+  }
+  
+  /* Style pour le bouton de soumission */
+  .form-button {
+    display: block; /* Affiche le bouton comme un bloc pour centrer */
+    width: 20%; /* Remplit la largeur du conteneur */
+    padding: 10px; /* Espacement interne du bouton */
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 20px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de type main */
+    margin-left: 80%;
+  }
+  
+  /* Style pour les messages d'erreur */
+  .error-message {
+    color: red; /* Couleur rouge pour les erreurs */
+    font-size: 14px; /* Taille de police pour les erreurs */
+  }
+  

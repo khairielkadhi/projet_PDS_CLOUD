@@ -1,0 +1,60 @@
+/* job-offer-details.css */
+.job-offer-details {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .job-details {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 3px solid #e2e2e2;
+    border-radius: 40px;
+    margin-top: 20px;
+    
+  }
+  
+  .job-details h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .job-info {
+    margin-bottom: 15px;
+  }
+  
+  .job-label {
+    font-weight: bold;
+  }
+  
+  .interest-button-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 700px;
+    
+  }
+  
+  .interest-button {
+    background-color: #c01b1b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px; /* Ajouter la propriété border-radius avec la valeur souhaitée */
+    font-size: 19px;
+    cursor: pointer;
+  }
+  
+  .interest-button:hover {
+    background-color: #0056b3;
+  }
+
+  .Button{
+    background-color: #c01b1b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px; /* Ajouter la propriété border-radius avec la valeur souhaitée */
+    font-size: 19px;
+    cursor: pointer;
+
+  }

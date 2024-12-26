@@ -1,0 +1,32 @@
+/* AllJobOffers.css */
+.job-offers-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .job-offer-box {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 0px;
+  }
+  
+  .list {
+    color: #FF0000;
+  }
+  
+  .page-title {
+    color: #8B008B;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .content{
+    margin-bottom: 100px;
+   
+  }
+  

@@ -1,0 +1,98 @@
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: #f5f5f5;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.styled-table th {
+  background-color: #88add4;
+  color: white;
+}
+
+.styled-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin-top: 10px;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+.exportexcel {
+  margin-top: 10px;
+  float: right;
+  margin-right: 10px;
+  
+  
+}
+
+.search-icon {
+  margin-right: 10px;
+  font-size: 20px; /* Ajustez la taille de l'icône selon vos préférences */
+}
+
+.export-icon {
+  background-color: #4caf50; /* Couleur de fond verte, ajustez selon vos préférences */
+  color: #fff; /* Couleur du texte en blanc, ajustez selon vos préférences */
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer; /* Changez le curseur en main au survol */
+  transition: background-color 0.3s; /* Ajoutez une transition de couleur de fond pour un effet de survol */
+}
+
+.export-icon:hover {
+  background-color: #45a049; /* Couleur de fond verte légèrement plus foncée au survol */
+}
+
+.MorreDetails{
+  background-color:#bad3bc ;
+  border-radius: 20px;
+}
+
+
+.mon-bouton {
+  margin-left: 90%; /* Vous pouvez ajuster la valeur de la marge selon vos besoins */
+  border-radius: 20px; /* Pour rendre le bouton arrondi */
+  background-color: green; /* Pour colorer le bouton en vert */
+  color: white; /* Pour changer la couleur du texte en blanc pour une meilleure visibilité sur le fond vert */
+  padding: 5px 10px; /* Vous pouvez ajuster le rembourrage selon vos besoins */
+  cursor: pointer; /* Pour montrer qu'il s'agit d'un élément cliquable */
+}
+
+.job-labell{
+  margin-left: 5px;
+  color: rgb(23, 23, 48);
+}
+.SPAN{
+  color: red;
+}
+.Containner{
+
+  margin-bottom: 200px;
+}
