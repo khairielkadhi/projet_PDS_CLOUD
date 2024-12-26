@@ -1,0 +1,4 @@
+# Ignorer le dossier node_modules (mais ne pas ignorer myapp ou d'autres fichiers)
+node_modules/
+dist/
+build/
