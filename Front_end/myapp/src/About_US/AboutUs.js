@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './header';
-import Footer from './footer';
-import './AboutUs.css'
+import Header from '../header';
+import Footer from '../footer';
+import './AboutUs.css';
 
 function AboutUs() {
 

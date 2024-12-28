@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import SignUp from './SignUp'; 
+import SignUp from './Authentification/SignUp'; 
 import reportWebVitals from './reportWebVitals';
-import SignIn from './SignIn';
+import SignIn from './Authentification/SignIn';
 import Formulaire from  './Formulaire';
 import Joboffer from './joboffer';
 import JobOfferDetails from './JobOfferDetails';
@@ -20,7 +20,7 @@ import ALLJobOffer from './Gestionaire/ListeOfSessions';
 import Registration from './SingUp/SignUp';
 import EditApplication from './Mycondidate/mycondidate';
 import Header from './header';
-import AboutUs from './AboutUs';
+import AboutUs from './About_US/AboutUs';
 import ChartsPage from './Gestionaire/dashboard/PieCHart';
 
 

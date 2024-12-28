@@ -13,8 +13,8 @@ import {
 import './SignIn.css'; // Importez votre fichier CSS personnalisé ici
 import axios from 'axios';
 import jwtDecode from 'jwt-decode';
-import logosopra from './images/logosopra.jpg'; // Importez l'image ici
-import SIgnup from './images/SIgnup.webp'; 
+import logosopra from '../images/logosopra.jpg'; // Importez l'image ici
+import SIgnup from '../images/SIgnup.webp'; 
 function SignUp() {
   const [formFields, setFormFields] = useState({
     firstName: '',

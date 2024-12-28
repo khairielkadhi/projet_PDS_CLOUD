@@ -13,7 +13,7 @@ import {
 import './SignIn.css'; // Importez votre fichier CSS personnalisé ici
 import axios from 'axios';
 import jwtDecode from 'jwt-decode';
-import logosopra from './images/logosopra.jpg'; // Importez l'image ici
+import logosopra from '../images/logosopra.jpg'; // Importez l'image ici
 
 function SignIn() {
   const [email, setEmail] = useState('');

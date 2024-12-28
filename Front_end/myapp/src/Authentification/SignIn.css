@@ -21,7 +21,7 @@
     }
   }
   .custom-toolbar {
-    background-image: url('./images/A-propos-de-nous.png');
+    background-image: url('../images/A-propos-de-nous.png');
     background-size: cover; /* Pour redimensionner l'image pour couvrir la Toolbar */
     background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
     /* Autres styles personnalisés... */
